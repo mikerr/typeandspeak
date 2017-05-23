@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.googamaphone.DispatchingLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <View
+            android:id="@+id/tick_below_padding"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+
+        <ImageView
+            android:id="@+id/tick_below"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:contentDescription="@null"
+            android:src="@drawable/tick_below" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tick_background"
+        android:padding="4dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <View
+            android:id="@+id/tick_above_padding"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+
+        <ImageView
+            android:id="@+id/tick_above"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:contentDescription="@null"
+            android:src="@drawable/tick_above" />
+    </LinearLayout>
+
+</com.googamaphone.DispatchingLinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/input_text"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:gravity="top"
+        android:inputType="textMultiLine|textCapSentences"
+        android:imeOptions="flagNoEnterAction|actionNone" >
+
+        <requestFocus />
+    </EditText>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/holo_dark_action_bar_border" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/action_bar_height"
+        android:background="@color/holo_dark_action_bar"
+        android:orientation="horizontal" >
+
+        <include
+            android:id="@+id/play_controls"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            layout="@layout/play_controls"
+            android:visibility="gone" />
+
+        <include android:id="@+id/default_controls"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            layout="@layout/default_controls" />
+    </LinearLayout>
+
+</LinearLayout>

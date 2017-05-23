@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Type and Speak</string>
+    <string name="add_more">Add more accents…</string>
+
+    <!-- Properties dialog -->
+    <string name="pitch">Pitch</string>
+    <string name="speed">Speed</string>
+    <string name="speak_while_typing">Speak while typing</string>
+    <string name="use_larger_font">Use larger font</string>
+
+    <!-- Other stuff? -->
+    <string name="share_to">Share to…</string>
+    <string name="menu_properties">Properties</string>
+    <string name="failed_init">Failed to initialize speech synthesizer</string>
+    <string name="album_name">Saved Speech</string>
+    <string name="install_data_title">Install Language data?</string>
+    <string name="install_data_message">Type and Speak requires speech synthesis data.\n\nPlease check your SD card (if applicable) and click OK to download synthesis data for your text-to-speech engine.</string>
+    <string name="save_file_message">Title for saved speech?</string>
+    <string name="no_write_title">Error</string>
+    <string name="no_write_message">Could not write %s.wav to SD card!</string>
+    <string name="exists_title">Error</string>
+    <string name="exists_message">File %s.wav already exists on SD card!</string>
+    <string name="saving_title">Please wait…</string>
+    <string name="saving_message">Saving speech to SD card as %s.wav</string>
+    <string name="canceled_title">Save Canceled</string>
+    <string name="canceled_message">Canceled saving speech to SD card.</string>
+    <string name="saved_title">Saved as WAV</string>
+    <string name="saved_message">Speech has been saved to SD card as %s. It has also been added to the device media library.</string>
+    <string name="play">Play</string>
+    <string name="label_library">Library</string>
+
+    <!-- Library item menu -->
+    <string name="menu_delete">Delete</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_ringtone">Set as ringtone</string>
+    <string name="set_ringtone">Set ringtone</string>
+
+    <!-- Main menu -->
+    <string name="menu_language">Accent</string>
+    <string name="menu_clear">Clear</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_library">Library</string>
+    <string name="menu_play">Speak</string>
+    <string name="play_allcaps">SPEAK</string>
+    <string name="flag">Flag</string>
+    <string name="input_hint">File name</string>
+    <string name="stop">Stop</string>
+    <string name="pause">Pause</string>
+    <string name="rewind">Previous</string>
+    <string name="fast_forward">Next</string>
+    <string name="resume">Resume</string>
+    <string name="failed_extraction">Failed to extract content from %s</string>
+    <string name="tts_failed">Text-to-speech Error</string>
+    <string name="cannot_install_tts_data">Sorry, Type and Speak was unable to install text-to-speech data.</string>
+    <string name="no_saved_speech">It looks like you haven\'t saved any speech.\n\nUse the save icon to save your speech.</string>
+    <string name="date_at_time">%1$s at %2$s</string>
+    <string name="more_content_description">More actions</string>
+    <string name="confirm_clear">Clear entered text?</string>
+    <string name="confirm_delete_message">Delete saved speech \"%s\"?</string>
+    <string name="confirm_ringtone_message">Set default ringtone to \"%s\"?</string>
+    <string name="no_text_entered">No text entered…</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="clear">Clear</string>
+    <string name="delete">Delete</string>
+    <string name="extracting_title">Please wait…</string>
+    <string name="extracting_message">Extracting text from URL.</string>
+
+</resources>

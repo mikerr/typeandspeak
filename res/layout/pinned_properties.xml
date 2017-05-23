@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="260dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pitch"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <SeekBar
+        android:id="@+id/seekPitch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:max="100"
+        android:progress="50" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/speed"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <SeekBar
+        android:id="@+id/seekSpeed"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="200"
+        android:progress="50" />
+
+    <CheckBox
+        android:id="@+id/speak_while_typing"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:button="@drawable/btn_check_holo_dark"
+        android:text="@string/speak_while_typing"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/use_larger_font"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:button="@drawable/btn_check_holo_dark"
+        android:text="@string/use_larger_font"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>

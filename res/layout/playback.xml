@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="4dp" >
+
+    <ImageButton
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:contentDescription="@string/play"
+        android:src="@android:drawable/ic_media_play" />
+
+    <SeekBar
+        android:id="@+id/progress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="4dp"
+        android:layout_weight="1.0" />
+
+    <ImageButton
+        android:id="@+id/share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:contentDescription="@string/menu_share"
+        android:src="@android:drawable/ic_menu_share" />
+
+</LinearLayout>
