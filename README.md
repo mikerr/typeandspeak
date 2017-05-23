@@ -7,4 +7,5 @@ Type and Speak makes your phone say out loud whatever you type! Save speech to u
 Uses Android's multi-lingual text-to-speech engine which supports UK English, US English, French, Italian, German, and Spanish pronunciations.
 
 originally from Alan Viverette: https://code.google.com/archive/p/typeandspeak/
+
 https://play.google.com/store/apps/details?id=com.googamaphone.typeandspeak&hl=en_GB
